@@ -3,21 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-		caracter Nome[6] 
+		caracter Nome[6] = { M, A, Y, A, R, A}
 
 		para(inteiro i = 0; i <= 5; i++){
 		
 
-		leia(Nome[i])
+		escreva(Nome[i])
 
 		
 		
 	}
-	escreva("Meu nome é: ")
-	para(inteiro i = 0; i <= 5; i++){
-		
 	
-	escreva(Nome[i])
+	
+	escreva("\n")
 
 		
 
@@ -35,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 227; 
+ * @POSICAO-CURSOR = 137; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
